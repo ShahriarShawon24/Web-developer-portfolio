@@ -1,39 +1,45 @@
 /*common shared style */
-body{ 
+body {
     font-family: "Open Sans", sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: rgb(253, 110, 10);
 }
 
 /* Nav related styles */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
 }
-.nav-title{
-    
-font-size: 45px;
-font-weight: 800;
-/* line-height: 61px; */
-/* letter-spacing: 0%; */
-text-align: left;
+
+.nav-title {
+
+    font-size: 45px;
+    font-weight: 800;
+    /* line-height: 61px; */
+    /* letter-spacing: 0%; */
+    text-align: left;
 }
-nav >ul {
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-left: 50px;
 }
+
 nav a {
     text-decoration: none;
     color: rgb(71, 71, 71);
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     border: 0px;
     color: rgb(255, 255, 255);
@@ -42,22 +48,109 @@ nav a {
     font-weight: 700;
     line-height: 27px;
     padding: 15px 35px;
-    
-    
 
-background: rgb(253, 110, 10);
+
+
+    background: rgb(253, 110, 10);
 }
+
 /* Header related CSS */
-.header{
+.header {
     background-color: rgb(255, 248, 243);
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* banner related CSS */
-.banner{
-    padding: 30px 30px 30px 150px;
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 0;
+
+
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+}
+
+.banner-content {
+    margin-top: 0;
+}
+
+.button-parent {
+    margin-top: 30px;
+}
+
+/* main section related CSS */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* section related css */
+
+.section-title {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+
+.section-description {
+    color: rgb(117, 117, 117);
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+    text-align: center;
+}
+
+.about-section {
+    padding: 130px;
+    margin: 130px 0px;
+    border-radius: 10px;
+
+    background: rgb(255, 248, 243);
+}
+
+/* about container */
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info {
+    text-align: center;
+
+
+
+}
+
+.about-info {
+    color: rgb(117, 117, 117);
+
+}
+
+.info-description {
+    color: rgb(71, 71, 71);
+    font-weight: 700px;
+    Font-size: 20px;
+
 }
