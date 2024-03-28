@@ -178,12 +178,12 @@ main {
 
 .skill-section {
     display: flex;
-    
+
 }
 
 .skill {
     margin: 50px 24px;
-    
+
     border-radius: 5px;
     padding: 30px 30px;
 
@@ -192,6 +192,84 @@ main {
     background: rgb(255, 255, 255);
 
 }
-.skill-description{
+
+.skill-description {
     color: rgb(117, 117, 117);
+}
+
+
+/* resume section  */
+.resume-title {
+    color: rgb(24, 24, 24);
+
+    font-size: 35px;
+    font-weight: 700;
+
+
+    text-align: center;
+}
+
+/* education section */
+
+.education-section {
+    display: flex;
+}
+
+.education-title {
+
+    text-align: left;
+    margin: 100px;
+    gap: 50px;
+    /* justify-content: center; */
+
+
+
+}
+
+.study {
+    color: rgb(71, 71, 71);
+
+    font-size: 30px;
+    font-weight: 700;
+
+
+
+}
+
+.qualification {
+    color: rgb(71, 71, 71);
+
+
+    font-weight: 700;
+
+
+
+}
+
+.qualification-decp {
+    color: rgb(117, 117, 117);
+
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.edu-description {
+
+
+    color: rgb(117, 117, 117);
+
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.download-cv{
+    text-align: center;
+  
+    
+    
+   
+
+
+
 }
